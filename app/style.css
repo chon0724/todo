@@ -4,4 +4,16 @@
 
 .input-group .ng-invalid.ng-dirty {
     border: solid 1px red;
-}   
+}
+
+body{
+    background-color : #f2f2f2;
+
+}
+h1{
+    text-align: center;
+}
+
+.btn btn-primary{
+    text-align: center;
+}

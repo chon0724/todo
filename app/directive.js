@@ -1,7 +1,7 @@
 
 angular.module('todo').directive('todoTitle',function(){
     return {
-        template: '<h1> 할 일 </h1>'
+        template: '<h1> TODO </h1>'
     }
 });
 
@@ -11,7 +11,7 @@ angular.module('todo').directive('todoItem', function(){
     }
 });
 
-angular.module('todo').directive('todoFilters', function(){
+angular.module('todo').directive('todoFilter', function(){
     return {
         templateUrl: 'todoFilters.tpl.html'
     }
